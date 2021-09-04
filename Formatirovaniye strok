@@ -4,11 +4,31 @@
 # print('Jake ' + str(age) + ' years old.')
 # print('Jake ' + str(23) + ' years old.')
 
+# name = 'Jake'
+# age = 23
+# name_and_age = 'My name is {0}. I\'m {1} years old.'.format(name, age)
+# print(name_and_age)
+# name_and_age = 'My name is {0}. I\'m {1} years old.'.format('Jake', 23)
+# print(name_and_age)
+# week_days = 'There are 7 days in a week: {5}, {3}, {1}, {4}, {6}, {0}, {2}.'.format('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
+# print(week_days)
+
+# float_result = 1000/7
+# print(float_result)
+# print('The result of division is {0:1.3f}'.format(float_result))
+# print("""
+# {0:10.2f} {1:10.2f} {2:10.2f}
+# {3:10.2f} {4:10.2f} {5:10.2f}
+# {6:10.2f} {7:10.2f} {8:10.2f}
+# """.format(1.45778, 345.232352, 34.2344, 1234.23,
+#            1.45778, 345.232352, 34.2344, 1234.23,
+#            456.43234))
+
 name = 'Jake'
 age = 23
 name_and_age = 'My name is {0}. I\'m {1} years old.'.format(name, age)
 print(name_and_age)
-name_and_age = 'My name is {0}. I\'m {1} years old.'.format('Jake', 23)
+name_and_age = f'My name is {name}. I\'m {age} years old.'
 print(name_and_age)
-week_days = 'There are 7 days in a week: {5}, {3}, {1}, {4}, {6}, {0}, {2}.'.format('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
-print(week_days)
+
+print('My name is %s. %s %d years old' %(name, "I'm", age))
