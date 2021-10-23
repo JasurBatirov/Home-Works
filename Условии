@@ -1,0 +1,14 @@
+input()
+print("Добрый день"
+      "")
+input()
+print("Выберите категорию")
+product = "Perfetto"
+residual_quantity = 1500
+fictitious_quantities = 500
+if fictitious_quantities > residual_quantity:
+    print("Заказ не доступен")
+elif fictitious_quantities == residual_quantity:
+    print("Ваш заказ ограничен")
+else:
+    print("Заказ доступен")
