@@ -71,3 +71,16 @@ bmi3 = bmi_calculator(name3, height3, weight3)
 print(bmi1)
 print(bmi2)
 print(bmi3)
+
+
+Zadaniye: Нужно рассчитать сколько километров в милле  
+def convert(x):
+    return x/1.6
+a = convert(20)
+print(a)
+
+Zadaniye: Нужно создать функцию для расчёта площади прямоугольника
+def area(a, b):
+    return a * b
+a = area(5, 5)
+print(a)
