@@ -12,3 +12,10 @@ print('Hello\nworld') # перевод строки
 # Конкатенация
 print("Hello, my name " + "Jasur" + "!")
 print("My " + str(age) + " year!")
+
+
+
+name = input("Ведите своё имя: ")
+age = input("Укажите свой возвраст: ")
+print("Привет," + name + "!")
+print("Тебе уже " + age + " года, это круто! =D")
