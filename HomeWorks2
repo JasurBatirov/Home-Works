@@ -1,3 +1,14 @@
-name_list = ['Жасур', 'Мирослав', 'Алексей']
-for i in range(len(name_list)):
-  print(name_list[i])
+# integer / int
+number = 5
+age = 27
+# float
+fnumber = 5.7
+# string / str
+name = "Nike"
+# bool
+# status = True / False
+# print() вывод на экран
+print('Hello\nworld') # перевод строки
+# Конкатенация
+print("Hello, my name " + "Jasur" + "!")
+print("My " + str(age) + " year!")
